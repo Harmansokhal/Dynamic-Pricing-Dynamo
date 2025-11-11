@@ -1,0 +1,23 @@
+DynamicPricingDynamo/
+│
+├── data/
+│   └── sample_products.csv         # Sample product data
+│
+├── src/
+│   ├── dynamic_pricing.py          # Core dynamic pricing algorithm
+│   ├── data_loader.py              # Loads and preprocesses product data
+│   ├── demand_forecast.py          # Simple demand forecasting module
+│   └── main.py                     # Entry point to run the application
+│
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project description and instructions
+└── LICENSE
+# Dynamic Pricing Dynamo
+
+Dynamic Pricing Dynamo is a Python-based tool for E-commerce platforms to optimize pricing dynamically based on demand, competitor pricing, and inventory levels.
+
+## Features
+- Calculate dynamic prices for products
+- Adjust prices based on inventory
+- Simple demand forecasting
+
